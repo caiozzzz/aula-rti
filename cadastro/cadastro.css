@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+body{
+    background:linear-gradient( 90deg,pink,blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cadastro{
+    background: white;
+    padding: 60px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    
+}
