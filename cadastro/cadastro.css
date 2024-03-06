@@ -11,7 +11,7 @@ body{
 }
 .cadastro{
     background: white;
-    padding: 60px;
+    padding: 50px;
 }
 form{
     display: flex;
@@ -19,4 +19,7 @@ form{
 }
 a{
     
+}
+input{
+    padding: 20px;
 }
