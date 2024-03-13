@@ -13,10 +13,21 @@ body {
 
 .cadastro {
     background: white;
+    position: relative;
     padding: 50px;
     border-radius: 15px;
-    
+    display: flex;
+justify-content: center;
 
+}
+
+.catzzz{
+
+    background-color: red;
+    position: absolute; 
+    top: -34px; 
+    padding: 10px;
+    border-radius: 50px;
 }
 
 form {
@@ -38,4 +49,17 @@ p {
     text-align: center;
 }
 
+button{
+    background-color: red;
+    color: white;
+}
 
+.sociais{
+    background-color: red;
+    color: white;
+}
+
+.social-media{
+display: flex;
+gap: 50px;
+}
