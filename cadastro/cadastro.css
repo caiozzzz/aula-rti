@@ -18,6 +18,7 @@ body {
     border-radius: 15px;
     display: flex;
 justify-content: center;
+width: 500px;
 
 }
 
@@ -32,7 +33,9 @@ justify-content: center;
 
 form {
     display: flex;
+    gap: 12px;
     flex-direction: column;
+    width: 100%;
 }
 
 a {}
@@ -52,11 +55,16 @@ p {
 button{
     background-color: red;
     color: white;
+    padding: 5px;
+    border: none;
 }
 
 .sociais{
+    padding: 5px;
     background-color: red;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .social-media{
@@ -74,3 +82,11 @@ gap: 50px;
     
 
 }
+.lembrar{
+    display: flex;
+    gap: 5px;
+}
+
+
+
+
