@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.quadro{
+
+    background-color: gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+    color: white;
+
+}
+.dois img{
+    width: 200px;
+}
+.texto-medio {
+
+    font-size: 30px;
+}
+.texto-grande{
+    font-size: 50px;
+}
+img{
+    filter:brightness(0) invert(1) ;
+}
+
