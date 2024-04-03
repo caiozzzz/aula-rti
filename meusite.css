@@ -1,27 +1,42 @@
 *{
     margin: 0;
 }
+body{
+
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
 .quadro{
 
     background-color: gray;
-    border-radius: 20px;
+    border-radius: 50px;
     display: flex;
     justify-content:center ;
-    gap: 20px;
+    gap:20px;
     color: white;
+    margin: 0 auto;
+    padding: 19px;
 
 }
 .dois img{
-    width: 200px;
+    width: 100px;
 }
 .texto-medio {
 
-    font-size: 30px;
+    font-size: 20px;
 }
 .texto-grande{
-    font-size: 50px;
+    font-size: 40px;
+    font-weight:lighter ;
 }
 img{
     filter:brightness(0) invert(1) ;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+
 
