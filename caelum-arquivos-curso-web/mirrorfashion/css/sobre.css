@@ -1,5 +1,5 @@
 body{
-color: red;
+color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -12,7 +12,7 @@ h2{
 }
 
 figure{
-    background-color: black;
+    background-color: white;
     border: 1px solid;
     text-align: center;
 }
@@ -20,3 +20,17 @@ figure{
 figcaption{
     font-style: italic;
 }
+
+p{
+    text-align: left;
+}
+
+p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-indent: 30px;
+}
+
+
+
