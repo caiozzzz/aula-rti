@@ -1,4 +1,5 @@
 body{
+
 color: black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -12,6 +13,7 @@ h2{
 }
 
 figure{
+   
     background-color: white;
     border: 1px solid;
     text-align: center;
@@ -51,4 +53,9 @@ body{
     width: 940px;
 
 }
+ #centro-distribuição{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+ }
 
