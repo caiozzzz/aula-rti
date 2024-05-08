@@ -59,3 +59,7 @@ body{
     width: 550px;
  }
 
+  figcaption{
+    margin-top: 10px;
+  }
+
