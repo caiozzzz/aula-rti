@@ -9,6 +9,17 @@
     width: 140px;
 }
 
+div {
+    border: 2px solid;
+    border-color: red;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+}
+
+
 .menu-opcoes ul {
     font-size: 15px;
 }
@@ -44,7 +55,37 @@ margin: 10px;
 
 .menu-departamentos a {
     color: #333;
-    text
+   text-decoration: none; 
 }
+ 
+.busca input [type=search] {
+    width: 170px;
+}
+
+.busca,
+.menu-departamentos{
+    float: left;
+}
+
+.menu-departamentos{
+    clear: left;
+}
+
+.destaque{
+    margin-top: 10px;
+}
+
+.menu-departamentos{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+    
+
+ 
 
 
