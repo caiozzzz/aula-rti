@@ -1,91 +1,76 @@
-.sacola{
-    background-image: url(../img/sacola.png);
-    background-repeat: no-repeat;
-    background-position: top right;
+.sacola {
+  background-image: url(../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
 
-    font-size: 14px;
-    padding-right: 35px;
-    text-align: right;
-    width: 140px;
-}
-
-div {
-    border: 2px solid;
-    border-color: red;
+  font-size: 14px;
+  padding-right: 35px;
+  text-align: right;
+  width: 140px;
 }
 
 img {
-    width: inherit;
-    height: inherit;
+  width: inherit;
+  height: inherit;
 }
-
 
 .menu-opcoes ul {
-    font-size: 15px;
+  font-size: 15px;
 }
 .menu-opcoes a {
-    color: #036;
+  color: #036;
 }
-body{
-    color: #333;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+  color: #333;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .busca,
-.menu-departamentos{
-    background-color: #dcdcdc;
-    font-weight: bold;
-    text-transform: uppercase;
+.menu-departamentos {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
 
-    margin-right:10px ;
-    width: 230px;
- }
+  margin-right: 10px;
+  width: 230px;
+}
 
- .busca h2,
- .busca form,
- .menu-departamentos h2 {
-margin: 10px; 
- }
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+  margin: 10px;
+}
 
 .menu-departamentos li {
-    background-color: white;
-    margin-bottom: 1px;
-    padding: 5px 10px;
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
 }
 
 .menu-departamentos a {
-    color: #333;
-   text-decoration: none; 
+  color: #333;
+  text-decoration: none;
 }
- 
-.busca input [type=search] {
-    width: 170px;
+
+.busca input [type="search"] {
+  width: 170px;
 }
 
 .busca,
-.menu-departamentos{
-    float: left;
+.menu-departamentos {
+  float: left;
 }
 
-.menu-departamentos{
-    clear: left;
+.menu-departamentos {
+  clear: left;
 }
 
-.destaque{
-    margin-top: 10px;
+.destaque {
+  margin-top: 10px;
 }
 
-.menu-departamentos{
-    margin-top: 10px;
-    padding-bottom: 10px;
+.menu-departamentos {
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
-
-
-
-
-
-    
-
- 
-
-
