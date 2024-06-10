@@ -115,3 +115,25 @@ background-color: #F5DCDC;
 .mais-vendidos {
   background-color: #DCDCF5;
 }
+
+footer{
+  background-image:url(../img/fundo-rodape.png) ;
+}
+.social a {
+  height: 32px;
+  width: 32px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.social a [href*="facebook.com"] {
+  background-image: url(../img/twitter.png)
+}
+
+.social a [href*="twitter.com"] {
+  background-image:url(../img/twitter.png)
+}
+
+.social a [href*="plus.google.com"] {
+  background-image: url(../img/googleplus.png)
+}
