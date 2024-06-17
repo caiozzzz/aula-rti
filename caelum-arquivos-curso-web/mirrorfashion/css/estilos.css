@@ -164,3 +164,26 @@ footer .container img{
   float: left;
   margin-left: 25px;
 }
+  
+.menu-opcoes a:hover {
+color:#007DC6
+}
+
+.menu-opcoes a:active {
+color: #867dc6;
+}
+
+.menu-departamentosli ul {
+  display: none
+}
+
+.menu-departamentos li:hover ul {
+  display: block;
+}
+
+.menu-departamentos ul ul li {
+  background-color: #dcdcdc;
+}
+
+
+
