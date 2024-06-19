@@ -185,5 +185,8 @@ color: #867dc6;
   background-color: #dcdcdc;
 }
 
+.menu-departamentos li li a:before{
+  content:'-';
+}
 
 
