@@ -1,4 +1,4 @@
-.sacola {
+                                          .sacola {
   background-image: url(../img/sacola.png);
   background-repeat: no-repeat;
   background-position: top right;
@@ -239,6 +239,8 @@ border-top-right-radius: 4px;
  .painel li:hover {
   transition: 0.7s ease-in;
  }
+
+ 
 
                                              
 
