@@ -4,10 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <title>Mirror Fashion</title>
+  <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/estilos.css" />
   <link rel="stylesheet" href="css/mobile.css" />
-  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/produtos.css" />
 </head>
 
 <body>
@@ -27,20 +28,27 @@
   </header>
 
   <form>
-    <fieldset>
+    <fieldset class="cores">
       <legend>Escolha a cor</legend>
 
-      <input type="radio" name="cor" id="Verde" />
-      <label for="verde">Verde</label>
-      <img src="img/produtos/foto1-verde.png" alt="Produto na cor azul" />
+      <input type="radio" name="cor" id="verde" />
+      <label for="verde">
+        <img src="img/produtos/foto1-verde.png" alt="Produto na cor azul" />
 
-      <input type="radio" name="cor" id="Rosa" />
-      <label for="Rosa">Rosa</label>
-      <img src="img/produtos/foto1-rosa.png" alt="Produto na cor azul" />
+      </label>
 
-      <input type="radio" name="cor" id="Azul" />
-      <label for="Azul">Azul</label>
-      <img src="img/produtos/foto1-azul.png" alt="Produto na cor azul" />
+      <input type="radio" name="cor" id="rosa" />
+      <label for="rosa">
+
+        <img src="img/produtos/foto1-rosa.png" alt="Produto na cor azul" />
+      </label>
+
+      <input type="radio" name="cor" id="azul" />
+
+      <label for="azul">
+
+        <img src="img/produtos/foto1-azul.png" alt="Produto na cor azul" />
+      </label>
     </fieldset>
 
     <button class="comprar"></button>
@@ -53,6 +61,7 @@
         <li><a href="http://twitter.com"></a>Twitter</li>
         <li><a href="http://plus.google.com"></a>Google+</li>
       </ul>
+
     </div>
   </footer>
 
