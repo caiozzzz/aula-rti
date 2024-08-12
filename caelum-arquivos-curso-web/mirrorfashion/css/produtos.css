@@ -8,7 +8,7 @@
 }
 
 .cores label :hover ::after {
-    border: 6px solid rgba(0, 0, 0, 0.1);
+  border: 6px solid rgba(0, 0, 0, 0.1);
 }
 
 label[for="verde"]::after {
@@ -104,12 +104,46 @@ label[for="azul"]::after {
   margin: 1em 0;
 }
 
-.cores label ::after {
-    border: 6 px solid rgba(0, 0, 0, 0,);
-    transition: 1s;
+.cores label::after {
+  border: 6 px solid rgba(0, 0, 0, 0);
+  transition: 1s;
 }
 
-.cores label ::after {
-    cursor: pointer;
+.cores label::after{
+  border: 6 px solid rgba(0, 0, 0, 0.1);
 }
+
+.cores label::after{
+  cursor: pointer;
+}
+
+@media (min-width: 630px){
+  img {
+    float: left;
+  }
+
+  .produto{
+position: relative;
+padding-left: 40%;
+}
+ .cores{
+  position: static;
+  padding: 0;
+ }
+ .cores legend{
+ position: static;
+ }
+
+ .cores label img{
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+ .cores label:after{
+  position: static;
+  float: left;
+ }
+}
+
+
 
