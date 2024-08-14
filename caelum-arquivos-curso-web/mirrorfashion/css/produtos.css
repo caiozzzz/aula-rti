@@ -109,49 +109,60 @@ label[for="azul"]::after {
   transition: 1s;
 }
 
-.cores label::after{
+.cores label::after {
   border: 6 px solid rgba(0, 0, 0, 0.1);
 }
 
-.cores label::after{
+.cores label::after {
   cursor: pointer;
 }
 
 
- @media(min-width: 600){
-img{
-  float: left;
-}
- }
 
-
-@media(min-width: 630px){
-  img {
+@media (min-width: 630px) {
+  .produto img {
     float: left;
   }
 
+
+  .cores label img {
+    max-width: 35%;
+  }
+
+  .cores label img {
+    max-width: 35%;
+    max-height: 100%;
+  }
   .produto{
-position: relative;
-padding-left: 40%;
+    font-size: 1.2em
+  }
+
+  .cores label ::after{
+    margin-right: 10px;
+  }
+
+  .produto {
+    position: relative;
+    padding-left: 40%;
+  }
+  .cores {
+    position: static;
+    padding: 0;
+  }
+  .cores legend {
+    position: static;
+  }
+
+  .cores label img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .cores label:after {
+    position: static;
+    float: left;
+  }
+
+
+
 }
- .cores{
-  position: static;
-  padding: 0;
- }
- .cores legend{
- position: static;
- }
-
- .cores label img{
-   position: absolute;
-   top: 0;
-   left: 0;
- }
- .cores label:after{
-  position: static;
-  float: left;
- }
-}
-
-
-
