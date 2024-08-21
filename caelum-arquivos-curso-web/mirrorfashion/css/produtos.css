@@ -117,13 +117,10 @@ label[for="azul"]::after {
   cursor: pointer;
 }
 
-
-
 @media (min-width: 630px) {
   .produto img {
     float: left;
   }
-
 
   .cores label img {
     max-width: 35%;
@@ -133,11 +130,11 @@ label[for="azul"]::after {
     max-width: 35%;
     max-height: 100%;
   }
-  .produto{
-    font-size: 1.2em
+  .produto {
+    font-size: 1.2em;
   }
 
-  .cores label ::after{
+  .cores label ::after {
     margin-right: 10px;
   }
 
@@ -163,6 +160,73 @@ label[for="azul"]::after {
     float: left;
   }
 
+  .cores label img {
+    max-width: 35%;
+    max-height: 100%;
+  }
 
+  .produto {
+    font-size: 1.2em;
+  }
 
+  .cores label ::after {
+    margin-right: 10px;
+  }
+
+  fiedlset {
+    display: inline-block;
+    vertical-align: top;
+
+    margin: 1em 0;
+    min-width: 240px;
+    width: 45%;
+  }
+
+  .detalhes {
+    padding: 2em 0;
+  }
+
+  .detalhes h2 {
+    padding: 2em 0;
+  }
+
+  .detalhes p {
+    margin: 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 36em;
+  }
+}
+
+@media (min-width: 500px) {
+  .detalhes {
+    font-size: 1.2em;
+  }
+
+  table {
+    border-spacing: 0.2em;
+    border-collapse: separate;
+  }
+
+  thead {
+    background-color: #999;
+  }
+
+  thead th{
+    font-weight: bold;
+    padding: 0.3em 1em;
+    text-align: center;
+  }
+
+  td {
+    padding: 0.3em;
+  }
+
+  tr:nth-child(2n){
+    background-color: #ccc;
+  }
+
+  td :first-child {
+    font-style: italic;
+  }
 }
