@@ -226,7 +226,7 @@ label[for="azul"]::after {
     background-color: #ccc;
   }
 
-  td :first-child {
+  td:first-child {
     font-style: italic;
   }
 
