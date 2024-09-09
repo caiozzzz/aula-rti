@@ -10,38 +10,74 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css" />
   </head>
   <body>
-      <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid">
       <div class="container">
-          <h1 class="display-4">Ótima Escolha!</h1>
-          
-          <p class="lead">
-              Obrigado por comprar na Mirror Fashion! Preencha seus dados para
-              efetivar a compra.
+        <h1 class="display-4">Ótima Escolha!</h1>
+
+        <p class="lead">
+          Obrigado por comprar na Mirror Fashion! Preencha seus dados para
+          efetivar a compra.
         </p>
+      </div>
     </div>
-  </div>
 
-  <div>
-    <div></div>
+    <div class="container">
+      <div class="card mb-3">
+        <div class="card-header"><h2>Ótima Escolha!</h2></div>
 
-    <div></div>
-  </div>
+        <div class="card-body">
+          <img
+            src="img/produtos/foto1-rosa.png"
+            alt="Fuzzy Cardigan"
+            class="img-thumbnail mb-3"
+          />
+          <dl>
+            <dt>Produtos</dt>
+            <dd>Fuzzy Cardigan</dd>
 
-        <h2>Ótima Escolha!</h2>
-        <dl>
-          <dt>Produtos</dt>
-          <dd>Fuzzy Cardigan</dd>
+            <dt>Cor</dt>
+            <dd>Verde</dd>
 
-          <dt>Cor</dt>
-          <dd>Verde</dd>
+            <dt>Tamaho</dt>
+            <dd>40</dd>
 
-          <dt>Tamaho</dt>
-          <dd></dd>
-
-          <dt>Preço</dt>
-          <dd>R$ 129,99</dd>
-        </dl>
+            <dt>Preço</dt>
+            <dd>R$ 129,99</dd>
+          </dl>
+        </div>
+      </div>
+      <form>
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" class="form-control" id="nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" name="cpf" />
+          </div>
+          <div class="form-group custom-control custom checkbox">
+            <input
+              type="checkbox"
+              class="custom-control input"
+              id="newletter"
+              value="sim"
+              checked
+            />
+            <label class="custom-control-label" for="newsletter">
+              Quero receber o newsletter da Mirror Fashion
+            </label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
