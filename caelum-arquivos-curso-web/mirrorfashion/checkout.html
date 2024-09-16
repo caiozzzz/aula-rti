@@ -92,6 +92,14 @@
               <option value="Amex">American Express</option>
             </select>
           </div>
+          <input
+            type="text"
+            class="form-control"
+            id="nome"
+            name="nome"
+            autofocus
+            required
+          />
           <div class="form-group">
             <label for="Validade-cartao">Validade</label>
             <input
@@ -103,8 +111,6 @@
           </div>
         </fieldset>
 
-        <button type="submit" class="btn btn-primary">Confirmar Pedido</button>
-
         <input
           type="email"
           class="form-control"
@@ -113,13 +119,21 @@
           placeholder="email@exemplo.com"
         />
 
-        <input
+        <input required
           type="text"
           class="form-control"
           id="cpf"
           name="cpf"
           placeholder="000.000.000-00"
         />
+
+        <input type="text" pattern="^@\w{2,}" name="usuario_twitter" />
+
+        <button type="submit" class="btn btn-primary">
+          <span class="oi oi-thumb"></span>
+          Confirmar Pedido
+        </button>
+        
       </form>
     </div>
   </body>
