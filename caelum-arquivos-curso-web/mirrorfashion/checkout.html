@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/open-iconic-bootstrap.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid">
@@ -25,116 +26,126 @@
     </div>
 
     <div class="container">
-      <div class="card mb-3">
-        <div class="card-header"><h2>Ótima Escolha!</h2></div>
+      <div class="row">
+        <div class="card mb-3">
+          <div class="card-header"><h2>Ótima Escolha!</h2></div>
 
-        <div class="card-body">
-          <img
-            src="img/produtos/foto1-rosa.png"
-            alt="Fuzzy Cardigan"
-            class="img-thumbnail mb-3"
-          />
-          <dl>
-            <dt>Produtos</dt>
-            <dd>Fuzzy Cardigan</dd>
+          <div class="card-body">
+            <img
+              src="img/produtos/foto1-rosa.png"
+              alt="Fuzzy Cardigan"
+              class="img-thumbnail mb-3"
+            />
+            <dl>
+              <dt>Produtos</dt>
+              <dd>Fuzzy Cardigan</dd>
 
-            <dt>Cor</dt>
-            <dd>Verde</dd>
+              <dt>Cor</dt>
+              <dd>Verde</dd>
 
-            <dt>Tamaho</dt>
-            <dd>40</dd>
+              <dt>Tamaho</dt>
+              <dd>40</dd>
 
-            <dt>Preço</dt>
-            <dd>R$ 129,99</dd>
-          </dl>
+              <dt>Preço</dt>
+              <dd>R$ 129,99</dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <form>
+            <fieldset>
+              <legend>Dados Pessoais</legend>
+              <div class="form-group">
+                <label for="nome">Nome completo</label>
+                <input type="text" class="form-control" id="nome" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="cpf">CPF</label>
+                <input type="text" class="form-control" id="cpf" name="cpf" />
+              </div>
+              <div class="form-group custom-control custom checkbox">
+                <input
+                  type="checkbox"
+                  class="custom-control input"
+                  id="newletter"
+                  value="sim"
+                  checked
+                />
+                <label class="custom-control-label" for="newsletter">
+                  Quero receber o newsletter da Mirror Fashion
+                </label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Cartão de crédito</legend>
+              <div class="form-group">
+                <label for="Número-cartao">Número - CVV</label>
+                <input type="text" class="form-control" id="numero-cartao" />
+              </div>
+              <div class="form-group">
+                <label for="bandeira-cartao">Bandeira</label>
+                <select class="custom-select" id="bandeira-cartao">
+                  <option disabled select>selecione uma opcao</option>
+                  <option value="Master">MasterCard</option>
+                  <option value="Visa">Visa</option>
+                  <option value="Amex">American Express</option>
+                </select>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                name="nome"
+                autofocus
+                required
+              />
+              <div class="form-group">
+                <label for="Validade-cartao">Validade</label>
+                <input
+                  type="mouth"
+                  class="form-control"
+                  id="Validade-cartao"
+                  name="Validade-cartao"
+                />
+              </div>
+            </fieldset>
+
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="email@exemplo.com"
+            />
+
+            <input
+              required
+              type="text"
+              class="form-control"
+              id="cpf"
+              name="cpf"
+              placeholder="000.000.000-00"
+            />
+
+            <input type="text" pattern="^@\w{2,}" name="usuario_twitter" />
+
+            <button type="submit" class="btn btn-primary">
+              <span class="oi oi-thumb"></span>
+              Confirmar Pedido
+            </button>
+          </form>
         </div>
       </div>
-      <form>
-        <fieldset>
-          <legend>Dados Pessoais</legend>
-          <div class="form-group">
-            <label for="nome">Nome completo</label>
-            <input type="text" class="form-control" id="nome" />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" name="email" />
-          </div>
-          <div class="form-group">
-            <label for="cpf">CPF</label>
-            <input type="text" class="form-control" id="cpf" name="cpf" />
-          </div>
-          <div class="form-group custom-control custom checkbox">
-            <input
-              type="checkbox"
-              class="custom-control input"
-              id="newletter"
-              value="sim"
-              checked
-            />
-            <label class="custom-control-label" for="newsletter">
-              Quero receber o newsletter da Mirror Fashion
-            </label>
-          </div>
-        </fieldset>
-        <fieldset>
-          <legend>Cartão de crédito</legend>
-          <div class="form-group">
-            <label for="Número-cartao">Número - CVV</label>
-            <input type="text" class="form-control" id="numero-cartao" />
-          </div>
-          <div class="form-group">
-            <label for="bandeira-cartao">Bandeira</label>
-            <select class="custom-select" id="bandeira-cartao">
-              <option disabled select>selecione uma opcao</option>
-              <option value="Master">MasterCard</option>
-              <option value="Visa">Visa</option>
-              <option value="Amex">American Express</option>
-            </select>
-          </div>
-          <input
-            type="text"
-            class="form-control"
-            id="nome"
-            name="nome"
-            autofocus
-            required
-          />
-          <div class="form-group">
-            <label for="Validade-cartao">Validade</label>
-            <input
-              type="mouth"
-              class="form-control"
-              id="Validade-cartao"
-              name="Validade-cartao"
-            />
-          </div>
-        </fieldset>
-
-        <input
-          type="email"
-          class="form-control"
-          id="email"
-          name="email"
-          placeholder="email@exemplo.com"
-        />
-
-        <input required
-          type="text"
-          class="form-control"
-          id="cpf"
-          name="cpf"
-          placeholder="000.000.000-00"
-        />
-
-        <input type="text" pattern="^@\w{2,}" name="usuario_twitter" />
-
-        <button type="submit" class="btn btn-primary">
-          <span class="oi oi-thumb"></span>
-          Confirmar Pedido
-        </button>
-        
-      </form>
     </div>
   </body>
 </html>

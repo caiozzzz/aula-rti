@@ -230,8 +230,6 @@ label[for="azul"]::after {
     font-style: italic;
   }
 
-  .form-control:invalid {
-    border: 1px solid #CC0000;
-    }
+
   
 }
