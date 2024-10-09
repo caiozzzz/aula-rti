@@ -14,41 +14,30 @@
     <link rel="stylesheet" href="css/checkout.css" />
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button"
-        data-toggle="collapse" data-target="#navbarToggleExternalContent">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggleExternalContent"
+      >
         <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Mirror Fashion</a>
-        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+      </button>
+      <a class="navbar-brand" href="index.html">Mirror Fashion</a>
+      <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
         <ul class="navbar-nav">
-        <li class="nav-item active">
-        <a class="nav-link" href="sobre.html">Sobre</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Ajuda</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Perguntas frequentes</a>
-
-    <a class="navbar-band" href="index.html">Mirror Fashion</a>
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-      <a class="nav-link" href="sobre.html">Sobre</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#">Ajuda</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#">Perguntas frequentes</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-link" href="#">Entre em contato</a>
-      </li>
-    </ul>
+          <li class="nav-item active">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ajuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Perguntas frequentes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
@@ -91,101 +80,102 @@
         <div class="col-md-8">
           <form>
             <div class="row">
-            <fieldset class="col-lg-6">
-              <legend>Dados Pessoais</legend>
-              <div class="form-group">
-                <label for="nome">Nome completo</label>
-                <input type="text" class="form-control" id="nome" />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                />
-              </div>
-              <div class="form-group">
-                <label for="cpf">CPF</label>
-                <input type="text" class="form-control" id="cpf" name="cpf" />
-              </div>
-              <div class="form-group custom-control custom checkbox">
-                <input
-                  type="checkbox"
-                  class="custom-control input"
-                  id="newletter"
-                  value="sim"
-                  checked
-                />
-                <label class="custom-control-label" for="newsletter">
-                  Quero receber o newsletter da Mirror Fashion
-                </label>
-              </div>
-            </fieldset>
-            <fieldset>
-              <legend>Cartão de crédito</legend>
-              <div class="form-group">
-                <label for="Número-cartao">Número - CVV</label>
-                <input type="text" class="form-control" id="numero-cartao" />
-              </div>
-              <div class="form-group">
-                <label for="bandeira-cartao">Bandeira</label>
-                <select class="custom-select" id="bandeira-cartao">
-                  <option disabled select>selecione uma opcao</option>
-                  <option value="Master">MasterCard</option>
-                  <option value="Visa">Visa</option>
-                  <option value="Amex">American Express</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="nome"
-                  name="nome"
-                  autofocus
-                  required
-                />
-                <label for="Validade-cartao">Validade</label>
-                <input
-                  type="mouth"
-                  class="form-control"
-                  id="Validade-cartao"
-                  name="Validade-cartao"
-                />
-              </div>
-            </fieldset>
+              <fieldset class="col-lg-6">
+                <legend>Dados Pessoais</legend>
+                <div class="form-group">
+                  <label for="nome">Nome completo</label>
+                  <input type="text" class="form-control" id="nome" />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="cpf">CPF</label>
+                  <input type="text" class="form-control" id="cpf" name="cpf" />
+                </div>
+                <div class="form-group custom-control custom checkbox">
+                  <input
+                    type="checkbox"
+                    class="custom-control input"
+                    id="newletter"
+                    value="sim"
+                    checked
+                  />
+                  <label class="custom-control-label" for="newsletter">
+                    Quero receber o newsletter da Mirror Fashion
+                  </label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Cartão de crédito</legend>
+                <div class="form-group">
+                  <label for="Número-cartao">Número - CVV</label>
+                  <input type="text" class="form-control" id="numero-cartao" />
+                </div>
+                <div class="form-group">
+                  <label for="bandeira-cartao">Bandeira</label>
+                  <select class="custom-select" id="bandeira-cartao">
+                    <option disabled select>selecione uma opcao</option>
+                    <option value="Master">MasterCard</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Amex">American Express</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nome"
+                    name="nome"
+                    autofocus
+                    required
+                  />
+                  <label for="Validade-cartao">Validade</label>
+                  <input
+                    type="mouth"
+                    class="form-control"
+                    id="Validade-cartao"
+                    name="Validade-cartao"
+                  />
+                </div>
+              </fieldset>
 
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              placeholder="email@exemplo.com"
-            />
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="email@exemplo.com"
+              />
 
-            <input
-              required
-              type="text"
-              class="form-control"
-              id="cpf"
-              name="cpf"
-              placeholder="000.000.000-00"
-            />
+              <input
+                required
+                type="text"
+                class="form-control"
+                id="cpf"
+                name="cpf"
+                placeholder="000.000.000-00"
+              />
 
-            <input type="text" pattern="^@\w{2,}" name="usuario_twitter" />
+              <input type="text" pattern="^@\w{2,}" name="usuario_twitter" />
 
-            <button type="submit" class="btn btn-primary">
-              <span class="oi oi-thumb"></span>
-              Confirmar Pedido
-            </button>
+              <button type="submit" class="btn btn-primary">
+                <span class="oi oi-thumb"></span>
+                Confirmar Pedido
+              </button>
+            </div>
           </form>
         </div>
       </div>
     </div>
     <script type="text/javascript" src="js/jquery.js"></script>
-    
-<script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 </html>
