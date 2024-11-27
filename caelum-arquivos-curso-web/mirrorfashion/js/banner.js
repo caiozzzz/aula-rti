@@ -20,3 +20,5 @@ controle. onclick = function () {
 
     return false;  
 };
+
+<script type="text/javascript" src="js/home.js"></script>
